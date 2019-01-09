@@ -1,0 +1,19 @@
+{
+  "name": "prettier-plugin-toml",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "example": "prettier --plugin . example.toml"
+  },
+  "keywords": ["prettier", "toml", "plugin"],
+  "author": {
+    "name": "Franco Victorio",
+    "email": "victorio.franco@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^1.15.3",
+    "toml": "^2.3.5"
+  }
+}
