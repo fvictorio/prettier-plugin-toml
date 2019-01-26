@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`example.toml 1`] = `
+title = "TOML Example"
+name = "Tom Preston-Werner"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+title = "TOML Example"
+name = "Tom Preston-Werner"
+
+`;
