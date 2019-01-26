@@ -1,4 +1,9 @@
 const parser = require('toml/lib/parser')
+const {
+  doc: {
+    builders: { concat }
+  }
+} = require('prettier')
 
 const languages = [
   {
@@ -16,7 +21,16 @@ const parsers = {
 }
 
 function printToml(path, options, print) {
-  return ''
+  const node = path.getValue()
+
+  if (Array.isArray(node)) {
+    return concat(path.map(print))
+  }
+
+  switch (node.type) {
+    default:
+      return ''
+  }
 }
 
 const printers = {
