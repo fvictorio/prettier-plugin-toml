@@ -31,7 +31,7 @@ function printToml(path, options, print) {
     case 'Assign':
       return concat([node.key, ' = ', path.call(print, 'value'), hardline])
     case 'String':
-      return `"${node.value}"`
+      return concat(['"', node.value, '"'])
     case 'Boolean':
       return node.value.toString()
     case 'Integer':
