@@ -1,2 +1,2 @@
-title = "TOML Example"
-name = "Tom Preston-Werner"
+title   = "TOML Example"
+name =   "Tom Preston-Werner"
